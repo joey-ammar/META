@@ -32,3 +32,12 @@ console.log(3 != 3);
  */
 console.log(3 && 3);
 console.log(12 || 13);
+
+/**
+ * In depth
+ */
+let currentTime = 9;
+let inside = 110;
+console.log(currentTime && inside); // return the last one
+console.log(currentTime || inside); // return the first one
+console.log(!currentTime); // return false cause original value is true
