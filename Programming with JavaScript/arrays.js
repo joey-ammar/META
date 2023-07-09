@@ -27,3 +27,13 @@ function arrayBuilder2(one, two, three) {
 }
 let returnedArr = arrayBuilder2("apple", "pear", "plum");
 console.log("🚀 ~ file: arrays.js:29 ~ returnedArr:", returnedArr);
+
+const clothes = [];
+clothes.push("tshirt", "shoes", "shirt", "sandals", "slippers");
+clothes.pop();
+clothes.push("new shirt");
+console.log(clothes);
+const favCar = {};
+favCar.color = "black";
+favCar.covertible = "yes";
+console.log(favCar);

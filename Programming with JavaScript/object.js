@@ -38,3 +38,12 @@ let drone = {
 for (let i = 0; i < arrOfKeys.length; i++) {
   console.log(drone[arrOfKeys[i]]);
 }
+
+let car = {};
+car.color = "red";
+// add a method
+car.turnKey = function () {
+  console.log("engine running");
+};
+// call the function
+car.turnKey();
